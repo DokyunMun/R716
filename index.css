@@ -1,0 +1,10 @@
+html{line-height: 29px; font-family: sans-serif; font-size: 20px ;color:#ff8f17;display: flex; justify-content: center;}
+body{width:350px}
+#A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N, #O, #P, #Q, #R, #S, #T, #U, #V, #W {padding-top:30px; padding-bottom:30px; }
+#index {display: flex;    flex-direction: column;}
+/* #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s, #t, #u, #v, #w {padding-top:5px; padding-bottom:5px;} */
+.plus{text-align: center; font-size: 30px;}
+
+.title_kor{padding-top: 15px; }
+.text_kor{padding-top: 15px}
+br{display: block;}
