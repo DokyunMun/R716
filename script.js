@@ -22,8 +22,13 @@ document.getElementById('u').onclick = function() {document.getElementById('U').
 document.getElementById('v').onclick = function() {document.getElementById('V').scrollIntoView({behavior:"smooth"});};
 document.getElementById('w').onclick = function() {document.getElementById('W').scrollIntoView({behavior:"smooth"});};
 
-
+plus = document.querySelectorAll('.plus')
+for (i = 0; i < plus.length; i++) {
+    plus[i].onclick = function() {document.getElementById('title').scrollIntoView({behavior:"smooth"});};
+}
 
 colors = [ 'orange', 'blue', 'pink', 'gray' ]
 const randomColor = colors[Math.floor(Math.random() * colors.length)];
 document.querySelector('html').style.color = randomColor;
+
+console.log(document.querySelector(".plus"))
